@@ -339,3 +339,59 @@ header {
 .news .news-card-content-btn {
     background-color: rgb(0, 106, 80);
 }
+
+/* Donate Section Styles */
+.donate {
+    width: 1086.4px;
+    margin: 0 auto 67.9px;
+    text-align: center;
+}
+
+.donate .donate-title {
+    margin-bottom: 20.37px;
+}
+
+.donate .donate-description {
+    margin-bottom: 27.16px;
+}
+
+.donate .amount-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20.37px;
+    margin-bottom: 27.16px;
+}
+
+.donate .amount-card {
+    display: block;
+    padding: 33.95px;
+    border: 1px solid rgba(14, 14, 14, .15);
+    border-radius: 13.58px;
+    background-color: white;
+    color: rgba(14, 14, 14, .8);
+    font-size: 33.95px;
+
+}
+
+.donate .amount-card:hover {
+    background-color: rgb(198, 228, 214);
+}
+
+.donate .other-amount {
+    display: block;
+    width: 875.91px;
+    padding: 16.975px 33.95px;
+    border-top: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.149);
+    border-left: none;
+    border-right: none;
+    margin: 0 auto 27.16px;
+    box-sizing: border-box;
+    color: rgba(14, 14, 14, .8);
+    font-size: 16.975px;
+    text-align: inherit;
+}
+
+.donate .donate-btn {
+    background-color: rgb(0, 106, 80);
+}
