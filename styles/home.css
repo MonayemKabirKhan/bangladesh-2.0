@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+/* Body Styles */
+body {
+    background-color: rgb(241, 241, 243);
+}
+
 /* Fira Sans Font Styles */
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
@@ -112,6 +117,13 @@
     font-style: italic;
 }
 
+/* Paragraph Styles */
+p {
+    color: rgba(14, 14, 14, .7);
+    font-size: 13.58px;
+    line-height: 1.5;
+}
+
 /* Button Styles */
 .primary-btn {
     padding: 14.429px 28.858px;
@@ -140,31 +152,100 @@ header {
     background-color: rgb(198, 228, 214);
 }
 
-.header-banner-content {
+.header-banner .header-banner-content {
     flex: 3 1 0;
 }
 
-.header-banner-content-title {
+.header-banner .header-banner-content-title {
     margin-bottom: 13.58px;
     color: rgba(14, 14, 14, .5);
     font-size: 20.37px;
 }
 
-.header-banner-content-subtitle {
+.header-banner .header-banner-content-subtitle {
     margin-bottom: 20.37px;
     color: rgb(14, 14, 14);
     font-size: 47.53px;
 }
 
-.header-banner-content-cta {
+.header-banner .header-banner-content-cta {
     background-color: rgb(0, 106, 80);
     font-size: 15.278px;
 }
 
-.header-banner-img {
+.header-banner .header-banner-img {
     flex: 2 1 0;
 }
 
-.header-banner-img img {
+.header-banner .header-banner-img img {
     width: 100%;
+}
+
+/* Vision Section Styles */
+.vision {
+    width: 1086.4px;
+    margin: 0 auto 27.16px;
+}
+
+.vision .vision-title {
+    margin-bottom: 20.37px;
+    color: rgb(14, 14, 14);
+    font-size: 33.95px;
+}
+
+.vision .vision-description {
+    margin-bottom: 27.16px;
+}
+
+.vision .vision-card-container {
+    display: flex;
+    align-items: start;
+    gap: 20.37px;
+}
+
+.vision .vision-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1 1 0;
+    height: 221.524px;
+    padding: 27.16px;
+    border-radius: 13.58px;
+}
+
+.vision .vision-card:nth-child(1) {
+    background-color: rgba(84, 144, 245, .2);
+}
+
+.vision .vision-card:nth-child(2) {
+    background-color: rgb(198, 228, 214);
+}
+
+.vision .vision-card:nth-child(3) {
+    background-color: rgb(247, 235, 207);
+}
+
+.vision .vision-card img {
+    width: 54.32px;
+    margin-bottom: 20.37px;
+}
+
+.vision .vision-card-title {
+    margin-bottom: 10.185px;
+    color: rgba(14, 14, 14, .8);
+    font-size: 16.975px;
+}
+
+.vision .vision-card-description {
+    margin-bottom: auto;
+}
+
+.vision .vision-card:nth-child(1) .vision-card-btn {
+    background-color: rgb(84, 144, 245);
+}
+.vision .vision-card:nth-child(2) .vision-card-btn {
+    background-color: rgb(9, 161, 92);
+}
+.vision .vision-card:nth-child(3) .vision-card-btn {
+    background-color: rgb(255, 194, 57);
 }
