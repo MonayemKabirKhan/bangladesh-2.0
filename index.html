@@ -97,10 +97,23 @@
                 <span class="amount-card fira-sans-bold">500 Taka</span>
                 <span class="amount-card fira-sans-bold">1000 Taka</span>
             </div>
-            <input class="other-amount fira-sans-regular" type="text" placeholder="Other Amount (Taka)">
-            <button class="donate-btn primary-btn">Donate Now</button>
+            <form action="http://www.modmr.gov.bd/donate.html" method="post">
+                <input class="other-amount fira-sans-regular" type="number" name="amount" placeholder="Other Amount (Taka)">
+                <input class="donate-btn primary-btn" type="submit" value="Donate Now">
+            </form>
         </section>
         <!-- Donate Section End -->
+        <!-- Newsletter Section Start -->
+        <section class="newsletter">
+            <h3 class="newsletter-title">Subscribe Newsletter</h3>
+            <p class="newsletter-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge<br>technology, promoting inclusive growth.</p>
+            <form action="http://www.modmr.gov.bd/donate.html" method="post">
+                <input class="email-input" type="email" name="email" placeholder="Enter your email here">
+                <input type="submit" class="subscribe-btn primary-btn" value="Subscribe">
+            </form>
+            <p class="no-spam">We promise not to spam you!</p>
+        </section>
+        <!-- Newsletter Section End -->
     </main>
     <footer>
 
