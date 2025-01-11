@@ -261,6 +261,32 @@ header {
     background-color: rgb(255, 194, 57);
 }
 
+/* Quoto Section Styles */
+.quote {
+    width: 1086.4px;
+    padding: 40.74px 20.37px;
+    border-radius: 13.58px;
+    border: 1px solid rgba(14, 14, 14, .15);
+    margin: 0 auto 67.9px;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url("../images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 20.37px 28px;
+}
+
+.quote .quote-text {
+    margin-bottom: 10.185px;
+}
+
+.quote .quoted-person {
+    margin-bottom: 3.395px;
+    color: rgba(14, 14, 14, .8);
+    font-size: 16.975px;
+    line-height: 1.2;
+}
+
 /* News Section Styles */
 .news {
     width: 1086.4px;
@@ -402,7 +428,7 @@ header {
     width: 1086.4px;
     padding: 67.9px 84.875px;
     border-radius: 20.37px;
-    margin: 0 auto;
+    margin: 0 auto 67.9px;
     box-sizing: border-box;
     background-color: rgb(198, 228, 214);
     text-align: center;
